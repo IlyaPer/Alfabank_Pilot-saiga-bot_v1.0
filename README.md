@@ -2,6 +2,10 @@
 A prototype of Alphachat bot for Alfabank employees, based on open neural network [Saiga2_7b_lora](https://huggingface.co/IlyaGusev/saiga2_7b_lora).
 Pilot project for Alfabank from HSE students.
 
+## File structure
+[Experiment](./experiment_bert_vs_saiga.ipynb) with comparison of two QA models BERT and Saiga.  
+[Deployment](./Alphachat_server.ipynb) with Saiga model and telegram API usage.
+
 ## Engeneering tasks
 1) Generate and preprocess dataset
 2) Import BERT model and train model via generated dataset
@@ -18,9 +22,9 @@ Pilot project for Alfabank from HSE students.
 
 ## Architecture of bot integration
 
-![Architecture](./img/architecture.png)
+![Architecture](./architecture.png)
 
 ## Example of bot usage on russian language.
 
-![usage of the bot](./img/bot_usage.jpg)
+![usage of the bot](./bot_usage.jpg)
 
